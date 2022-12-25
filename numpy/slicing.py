@@ -21,3 +21,10 @@ for row in a:
 
 for cell in a.flat:
     print(cell)
+
+b = np.arange(6, 12).reshape(3, 2)
+# print(np.vstack((a, b)))
+
+b = a > 4
+print(b)
+print(a[b])
