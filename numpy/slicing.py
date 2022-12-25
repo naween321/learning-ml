@@ -14,3 +14,10 @@ a = np.array([
 
 print(a[0: 2, 2])  # elements of 2nd column (count from 0) of 0th and 1st row that is [8, 3]
 print(a[-1, 0: 2])  # -1 is [9, 3 , 2] and 0: 2 in -1 gives [9, 3]
+
+print("Iterating with np array")
+for row in a:
+    print(row)
+
+for cell in a.flat:
+    print(cell)
