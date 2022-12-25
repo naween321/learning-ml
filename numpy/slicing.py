@@ -28,3 +28,9 @@ b = np.arange(6, 12).reshape(3, 2)
 b = a > 4
 print(b)
 print(a[b])
+
+for x in np.nditer(a, order='C'):  # C refers to normal order
+    print(x)
+
+for x in np.nditer(a, order='F'):  # F refers to fortran order
+    print(x)
