@@ -22,7 +22,7 @@ for row in a:
 for cell in a.flat:
     print(cell)
 
-b = np.arange(6, 12).reshape(3, 2)
+b = np.arange(6, 12).reshape(3, 2)  # arranging array
 # print(np.vstack((a, b)))
 
 b = a > 4
