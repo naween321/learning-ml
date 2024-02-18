@@ -34,3 +34,4 @@ for x in np.nditer(a, order='C'):  # C refers to normal order
 
 for x in np.nditer(a, order='F'):  # F refers to fortran order
     print(x)
+# Just a streak
